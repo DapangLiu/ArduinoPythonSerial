@@ -15,6 +15,8 @@ time_step = deque(maxlen=2)
 #                 print(temp_copy[1] - temp_copy[0], file=f, end='\n')
 
 
+# hi i'm ru
+
 while True:
     if arduino_port.inWaiting() > 0:
         try:
